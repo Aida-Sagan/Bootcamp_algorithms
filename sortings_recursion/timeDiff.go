@@ -54,3 +54,9 @@ func main() {
 	n := []string{"23:59", "00:00"}
 	fmt.Println(findMinDifference(n))
 }
+
+/*
+time complexity: O(1), because we won't process more than 24*60 operations regardless of the size of input array.
+
+space: O(1), without additional space
+*/
