@@ -40,6 +40,6 @@ func characterReplacement(s string, k int) int {
 }
 
 /*
-time complexity: O(26*n) = O(n), n - length string s
+time complexity: O(n), n - length string s
 space: O(N), we created hash
 */
