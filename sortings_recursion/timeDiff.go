@@ -56,7 +56,7 @@ func main() {
 }
 
 /*
-time complexity: O(1), because we won't process more than 24*60 operations regardless of the size of input array.
+time complexity: O(n), because we won't process more than 24*60 operations regardless of the size of input array.
 
 space: O(1), without additional space
 */
