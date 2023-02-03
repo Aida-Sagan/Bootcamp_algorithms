@@ -15,8 +15,6 @@ type List struct {
 }
 
 func deleteHead(head *ListNode) *ListNode {
-	needDelete := head
-	head.Next = needDelete
 	head = head.Next
 
 	return head
